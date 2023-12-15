@@ -1,0 +1,184 @@
+body, h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5eec2;
+}
+
+/* Header and Navigation Styles */
+.nav {
+  background-color: #f5eec2;
+  display: flex;
+  align-items: center;
+  padding: 15px 15px;
+  width: 100%;
+}
+
+#logo {
+  width: 100px;
+  height: 40px;
+  cursor: pointer;
+  margin-left: 100px;
+}
+
+.nav3 {
+  display: flex;
+  align-items: space-between;
+  cursor: pointer;
+  margin-left: 1100px;
+  margin-right: 100px;
+}
+
+.nav3 p {
+  color: #416a59;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+/* Main Navigation Section Styles */
+.nav-section-2 {
+  background-color: #AA8B56;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+}
+
+.nav-section-2 div {
+  cursor: pointer;
+  display: flex;
+  /* justify-content: center; */
+  margin: 0 20px;
+  color: white;
+  font-weight: bold;
+}
+
+.nav-section-2 div img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  /* margin-left: 80px; */
+  margin-right: 10px;
+}
+
+/* Slider Section Styles */
+
+
+.slider-section {
+  margin: 20px 0;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 300px; /* Adjust the height as needed */
+  object-fit: cover;
+}
+
+/* Trending and Category Section Styles */
+#trend-section {
+  margin: 20px 0;
+}
+
+#trend h3 {
+  color: #000;
+  font-weight: bold;
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+#trend section {
+  display: flex;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+#trend section div {
+  flex: 1;
+  margin: 0 10px;
+}
+
+#trend section div img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+  transition: transform 0.3s;
+  cursor: pointer;
+}
+
+#trend section div img:hover {
+  transform: scale(1.05);
+}
+
+#category-shop-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+.category-div {
+  margin-top: 40px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.category-div img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.category-div p {
+  margin-top: 15px;
+  margin-bottom: 0%;
+  font-weight: bold;
+}
+
+
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  .nav3 {
+    display: none;
+  }
+
+  .nav-section-2 {
+    display: none;
+  }
+
+  #box {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #link {
+    display: none;
+  }
+}
+
+/* Footer Styles */
+
+footer {
+  font-weight: bold;
+  margin: 0 10px;
+  text-decoration: none;
+  color: #000;
+  font-size: 16px;
+  bottom: 0px;
+  max-height: 500px;
+  padding: 10px 0;
+}
+
+footer .p {
+  font-weight: bold;
+  margin: 0 10px;
+  text-decoration: none;
+  color: #000;
+  font-size: 16px;
+}
+
